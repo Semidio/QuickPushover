@@ -1,0 +1,16 @@
+{
+   "manifest_version": 2,
+   "background": {
+   	    "page": "background.html"
+   },
+   "description": "Quick push url, image, text from Chrome via Pushover.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "name": "Quick Pushover",
+   "options_page": "index.html",
+   "permissions": ["contextMenus" , "https://api.pushover.net/1/messages.json"],
+   "version": "0.0.7"
+}
